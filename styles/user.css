@@ -40,7 +40,7 @@ nav *{
 .link-container{
   width: 100%;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #ccc;
   a{
     text-align: center;
     font-size: large;
