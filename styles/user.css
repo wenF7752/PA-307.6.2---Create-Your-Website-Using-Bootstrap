@@ -1,6 +1,11 @@
 *{
 
 }
+html, body {
+  height: 100%;
+  margin: 0; /* Ensure no default margin is applied */
+}
+
 nav *{
     background-color: lightblue;
 }
@@ -26,3 +31,31 @@ nav *{
     border-radius: 5px;
     height: 100%;
   }
+.footer-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    
+  }
+.link-container{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  a{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+}
+ 
+.admin-full-height{
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+}
+
+.row-content {
+  flex-grow: 1;
+  display: flex; 
+}
+  
